@@ -2,16 +2,18 @@ import bcrypt from "bcryptjs";
 
 const data = {
   users: [
+    // prettier-ignore
     {
-      name: "Mateo",
-      email: "lostrescerditos1993@gmail.com",
-      password: bcrypt.hashSync("123456"),
+      name: 'Mateo',
+      email: 'lostrescerditos1993@gmail.com',
+      password: bcrypt.hashSync('123456'),
       isAdmin: true,
     },
+    // prettier-ignore
     {
-      name: "Juan",
-      email: "w4l30@hotmail.com",
-      password: bcrypt.hashSync("123456"),
+      name: 'Juan',
+      email: 'w4l30@hotmail.com',
+      password: bcrypt.hashSync('123456'),
       isAdmin: false,
     },
   ],
